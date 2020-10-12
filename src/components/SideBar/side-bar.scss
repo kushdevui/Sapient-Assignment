@@ -1,0 +1,28 @@
+@import '../../styles/colors';
+
+.side-nav-wrapper{
+  background-color: white;
+  padding:0px 10px 30px 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .filter-sub{
+    width: 70%;
+    text-align: center;
+    line-height: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    align-self: center;
+    margin:10px 0px;
+  }
+
+      margin: 15px;
+      button{
+        width: 40%;
+        margin:5%;
+        padding:10px;
+        background-color: #c4e09b;
+        border:none;
+        border-radius: 5px;
+        
+      }
+}
