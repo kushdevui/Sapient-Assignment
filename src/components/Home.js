@@ -5,7 +5,7 @@ import LaunchesList from './List/LaunchList';
 import { types } from '../utils/assetUtils';
 const Home = (props) => {
   const [data,setData] = useState([]);
-  const [load,setLoad] = useState(false);
+  const [load,setLoad] = useState(true);
 
   useEffect(()=>{
    let query= new URLSearchParams(props.location.search)
